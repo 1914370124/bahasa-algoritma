@@ -13,18 +13,14 @@ int main()
     int b=4;
     int c;
     c=a+b;
-    printf("baris 1 -nilai c adalah %d\n",c);
+    printf("penjumlahan adalah %d\n",c);
     c=a-b;
-    printf("baris 2 -nilai c adalah %d\n",c);
+    printf("pengurangan adalah %d\n",c);
     c=a*b;
-    printf("baris 3 -nilai c adalah %d\n",c);
+    printf("perkalian  adalah %d\n",c);
     c=a/b;
-    printf("baris 4 -nilai c adalah %d\n",c);
+    printf("pembagian  adalah %d\n",c);
     c= b%a;
-    printf("baris 5 -nilai c adalah %d\n",c);
-    c=a++;
-    printf("baris 6 -nilai c adalah %d\n",c);
-    c=a--;
-    printf("baris 7 -nilai c adalah %d\n",c);
+    printf("modulus adalah %d\n",c);
     return 0;
 }
